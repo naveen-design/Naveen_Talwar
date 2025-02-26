@@ -1,33 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Your Name - Portfolio</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>[Your Name] - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>
-    <h1>Your Name</h1>
-    <p>Computer Vision | Virtual Reality | Electronics</p>
-  </header>
+    <!-- Header Section -->
+    <header>
+        <div class="container">
+            <h1>Welcome to my portfolio!</h1>
+            <p>I'm [Your Name], a passionate developer working on cutting-edge projects in Computer Vision, Virtual Reality, and Electronics.</p>
+            <a href="#about" class="btn">Learn More About Me</a>
+        </div>
+    </header>
 
-  <section class="hero">
-    <h2>Welcome to My Portfolio</h2>
-    <p>I am a passionate developer and engineer, specializing in cutting-edge technologies like computer vision, virtual reality, and electronics. Explore my work and discover how I can help bring innovative ideas to life.</p>
-    <a href="#projects" class="cta-button">View My Projects</a>
-  </section>
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>I specialize in creating innovative solutions at the intersection of technology and creativity. Whether it's through building immersive VR experiences, solving complex problems with Computer Vision, or designing electronic circuits, I strive to push the boundaries of what technology can achieve.</p>
+        </div>
+    </section>
 
-  <section class="content">
-    <h2>About Me</h2>
-    <p>
-      I am a [Your Title] with experience in developing impactful solutions using computer vision, virtual reality, and embedded systems. My journey has been focused on integrating AI, real-time computing, and interactive technology to solve real-world problems. I am driven by a passion for innovation and love exploring how technology can enhance user experiences.
-    </p>
-  </section>
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2>My Projects</h2>
+            <div class="project-cards">
+                <!-- Project 1 -->
+                <div class="project-card">
+                    <img src="project1.jpg" alt="Project 1">
+                    <h3>Project Title 1</h3>
+                    <p>A brief description of your project.</p>
+                    <a href="project1-details.html" class="btn">View Project</a>
+                </div>
+                <!-- Project 2 -->
+                <div class="project-card">
+                    <img src="project2.jpg" alt="Project 2">
+                    <h3>Project Title 2</h3>
+                    <p>A brief description of your project.</p>
+                    <a href="project2-details.html" class="btn">View Project</a>
+                </div>
+                <!-- More projects can be added here -->
+            </div>
+        </div>
+    </section>
 
-  <footer>
-    <p>&copy; 2025 Your Name. All rights reserved.</p>
-  </footer>
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <p>If you have any questions or want to discuss potential collaborations, feel free to reach out!</p>
+            <form action="#" method="POST">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" required></textarea>
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 [Your Name]. All Rights Reserved.</p>
+        </div>
+    </footer>
 </body>
 </html>
-
