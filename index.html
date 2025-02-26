@@ -3,71 +3,54 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>[Your Name] - Portfolio</title>
+    <title>Your Name - Portfolio</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!-- Header Section -->
     <header>
-        <div class="container">
-            <h1>Welcome to my portfolio!</h1>
-            <p>I'm [Your Name], a passionate developer working on cutting-edge projects in Computer Vision, Virtual Reality, and Electronics.</p>
-            <a href="#about" class="btn">Learn More About Me</a>
-        </div>
+        <h1>Hi, I'm [Your Name]</h1>
+        <p>Researcher | Computer Vision | VR | Electronics</p>
     </header>
-
-    <!-- About Section -->
-    <section id="about" class="about">
-        <div class="container">
-            <h2>About Me</h2>
-            <p>I specialize in creating innovative solutions at the intersection of technology and creativity. Whether it's through building immersive VR experiences, solving complex problems with Computer Vision, or designing electronic circuits, I strive to push the boundaries of what technology can achieve.</p>
+    
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#publications">Publications</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Welcome! I specialize in computer vision, VR applications, and electronics. My research focuses on trajectory prediction, real-time tracking, and intelligent systems.</p>
+    </section>
+    
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Human Trajectory Prediction using Particle Filters</h3>
+            <p>Developed an advanced prediction model for tracking human motion.</p>
+        </div>
+        <div class="project">
+            <h3>VR-based Navigation System</h3>
+            <p>Designed a VR interface for intuitive indoor navigation using eye tracking.</p>
         </div>
     </section>
-
-    <!-- Projects Section -->
-    <section id="projects" class="projects">
-        <div class="container">
-            <h2>My Projects</h2>
-            <div class="project-cards">
-                <!-- Project 1 -->
-                <div class="project-card">
-                    <img src="project1.jpg" alt="Project 1">
-                    <h3>Project Title 1</h3>
-                    <p>A brief description of your project.</p>
-                    <a href="project1-details.html" class="btn">View Project</a>
-                </div>
-                <!-- Project 2 -->
-                <div class="project-card">
-                    <img src="project2.jpg" alt="Project 2">
-                    <h3>Project Title 2</h3>
-                    <p>A brief description of your project.</p>
-                    <a href="project2-details.html" class="btn">View Project</a>
-                </div>
-                <!-- More projects can be added here -->
-            </div>
-        </div>
+    
+    <section id="publications">
+        <h2>Publications</h2>
+        <ul>
+            <li><a href="#">Title of Paper 1</a> - Published in XYZ Conference</li>
+            <li><a href="#">Title of Paper 2</a> - Journal of ABC Research</li>
+        </ul>
     </section>
-
-    <!-- Contact Section -->
-    <section id="contact" class="contact">
-        <div class="container">
-            <h2>Contact Me</h2>
-            <p>If you have any questions or want to discuss potential collaborations, feel free to reach out!</p>
-            <form action="#" method="POST">
-                <input type="text" placeholder="Your Name" required>
-                <input type="email" placeholder="Your Email" required>
-                <textarea placeholder="Your Message" required></textarea>
-                <button type="submit" class="btn">Send Message</button>
-            </form>
-        </div>
+    
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>Email: your.email@example.com</p>
+        <p>LinkedIn: <a href="#">linkedin.com/in/yourname</a></p>
+        <p>GitHub: <a href="#">github.com/yourgithub</a></p>
     </section>
-
-    <!-- Footer Section -->
-    <footer>
-        <div class="container">
-            <p>&copy; 2025 [Your Name]. All Rights Reserved.</p>
-        </div>
-    </footer>
 </body>
 </html>
