@@ -64,16 +64,16 @@ nav ul li a:hover {
 
 /* Section Styling */
 section {
-    flex-grow: 1; /* Allows the section to expand */
-    min-height: 400px; /* Set a minimum height for content */
-    padding: 20px;
-    text-align: center;
-    background: #f5f5f5;
+    width: 300px; /* Set a fixed width */
+    height: 180px; /* Set a fixed height */
+    background: white;
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    margin: 20px auto;
-    width: 80%;
-    max-width: 900px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Ensures content stays vertically centered */
 }
 
 h2 {
